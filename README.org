@@ -14,7 +14,7 @@
 
 #+BEGIN_SRC docker :tangle docker/Dockerfile
 FROM node:14.8.0-stretch
-RUN npm install lunr@2.3.8
+RUN npm install lunr@2.3.8 lunr-languages@1.4.0
 #+END_SRC
 
 ** Build docker image
