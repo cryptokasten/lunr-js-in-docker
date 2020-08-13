@@ -8,7 +8,11 @@
 
 - Base docker image: node:14.8.0-stretch
 
-- Lunr.js 2.3.8
+Node modules:
+
+- lunr@2.3.8
+
+- lunr-languages@1.4.0
 
 ** Dockerfile
 
