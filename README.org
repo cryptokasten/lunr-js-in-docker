@@ -4,7 +4,9 @@
 
 ** System environment
 
-- Docker 19.03.12
+- CentOS 8.1
+
+- Docker 19.03
 
 - Base docker image: node:14.8.0-stretch
 
