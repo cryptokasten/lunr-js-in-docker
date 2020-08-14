@@ -27,6 +27,12 @@ RUN npm install lunr@2.3.8 lunr-languages@1.4.0
 docker build -t lunrjs .
 #+END_SRC
 
+** Run node shell
+
+#+BEGIN_SRC sh
+docker run -it lunrjs node
+#+END_SRC
+
 ** References
 
 - https://lunrjs.com/
